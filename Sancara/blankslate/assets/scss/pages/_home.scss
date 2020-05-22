@@ -1,0 +1,344 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html, body {
+  overflow-x: hidden;
+  background-color: black;
+}
+
+
+
+
+.Home-Hero{
+  background-position: center;
+  min-height: 350px;
+  background-image: url(../images/HeroBackground.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  overflow: hidden;
+  .container-fluid{
+    padding: 0;
+    margin: 0;
+    .row{
+      overflow: hidden;
+      .Home-Hero-Title{
+        border-top: 400px solid black;
+        border-right: 100px solid transparent;
+      }
+      .Home-Hero-Title   h1{
+          text-align: center;
+          color: #FFC500;
+          font-size: 5vw;
+          text-align: left;
+          font-family: 'Exo', sans-serif;
+          padding: 0;
+          margin-top: -400px;
+          padding: 75px 50px;
+        }
+      .Home-Hero-Text{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        p{
+          color: white;
+          padding: 0;
+          font-size: 2em;
+          width: 95%;
+          margin: auto;
+          font-weight: bolder;
+          text-align: right;
+          font-family: 'Quicksand', sans-serif;
+        }
+      }
+    }
+  }
+}
+
+.Featured-Artists h2{
+  font-family: 'Exo', sans-serif;
+    color: #FFC500;
+    font-size: 2.5em;
+    padding: 0;
+    margin: 15px 0;
+    height: 100px;
+    line-height: 100px;
+}
+
+.Featured-Artists{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  .container-fluid{
+    padding: 0;
+    .row{
+      margin: 0;
+      padding: 0;
+      .Artist-Container{
+        padding-bottom: 100%;
+        background-position: center;
+        background-size: contain;
+        .ArtistName{
+          color: white;
+          text-align: left;
+          margin-top: 25%;
+          margin-bottom: -100%;
+            font-family: 'Exo', sans-serif;
+          font-size: 50px;
+          font-weight: bolder;
+          opacity: 1.5;
+        }
+      }
+    }
+  }
+}
+
+.Artist-Container:hover{
+  background: none;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.Why-Sancara{
+  .container-fluid{
+    .row{
+      .Why-Title h3{
+        text-align: center;
+        font-family: 'Exo', sans-serif;
+        color: #FFC500;
+        font-size: 90px;
+        width: 80%;
+        margin: 40% auto -100% auto;
+      }
+      .Why-Title{
+        position: relative;
+        padding-bottom: 50%;
+
+      }
+      .Why-Text p{
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        color: #FFC500;
+        font-size: 20px;
+        width: 80%;
+        margin: 40% auto -100% auto;
+      }
+      .Why-Text{
+        padding-bottom: 50%;
+        position:relative;
+      }
+    }
+  }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 0px) and (max-width:767px) {
+
+  .Home-Hero{
+    background-size: cover;
+    .container-fluid{
+      .row{
+        overflow: hidden;
+        .Home-Hero-Title{
+          border: none;
+          padding: 0;
+          margin: 0;
+          h1{
+            text-align: center;
+            color: #FFC500;
+            font-size: 50px;
+            font-family: 'Exo', sans-serif;
+            padding: 0;
+            margin-top: 0px;
+            padding: 0;
+            text-align: center;
+            background-color: none;
+            width: 100%;
+            padding: 25px 0;
+          }
+        }
+        .Home-Hero-Text{
+          display: flex;
+          justify-content: space-around;
+          p{
+            color: white;
+            padding: 0 0 25px 0;
+            font-size: 40px;
+            width: 90%;
+            font-weight: bold;
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+          }
+        }
+      }
+    }
+  }
+
+  .Why-Sancara{
+    .container-fluid{
+      .row{
+        .Why-Title h3{
+          text-align: center;
+          font-family: 'Exo', sans-serif;
+          color: #FFC500;
+          font-size: 60px;
+          width: 100%;
+          margin: 40% auto -100% auto;
+        }
+        .Why-Title{
+          position: relative;
+          padding-bottom: 100%;
+
+        }
+        .Why-Text p{
+          text-align: center;
+          font-family: 'Quicksand', sans-serif;
+          color: #FFC500;
+          font-size: 20px;
+          width: 80%;
+          margin: 40% auto -100% auto;
+        }
+        .Why-Text{
+          padding-bottom: 100%;
+          position:relative;
+        }
+      }
+    }
+  }
+
+
+
+}
+
+/* medium devices (landscape phones, 576px and up) */
+@media (min-width: 768px) and (max-width:991px) {
+
+  .Home-Hero{
+    .container-fluid{
+      .row{
+        overflow: hidden;
+        .Home-Hero-Title{
+          border: none;
+          padding: 0;
+          margin: 0;
+          h1{
+            text-align: center;
+            color: #FFC500;
+            font-family: Archivo;
+            font-size: 50px;
+            text-align: left;
+            font-family: 'Exo', sans-serif;
+            padding: 0;
+            margin-top: 0px;
+            padding: 0;
+            text-align: center;
+            background-color: none;
+            width: 100%;
+            padding: 25px 0;
+          }
+        }
+        .Home-Hero-Text{
+          display: flex;
+          justify-content: space-around;
+          p{
+            color: white;
+            padding: 0 0 25px 0;
+            font-size: 40px;
+            width: 90%;
+            font-weight: bold;
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+          }
+        }
+      }
+    }
+  }
+
+  .Featured-Artists{
+    .container-fluid{
+      .row{
+        .Artist-Container{
+          padding-bottom: 50%;
+
+        }
+      }
+    }
+  }
+
+  .Why-Sancara{
+    .container-fluid{
+      .row{
+        .Why-Title h3{
+          text-align: center;
+          font-family: 'Exo', sans-serif;
+          color: #FFC500;
+          font-size: 60px;
+          width: 100%;
+          margin: 65% auto -100% auto;
+        }
+        .Why-Title{
+          position: relative;
+          padding-bottom: 50%;
+
+        }
+        .Why-Text p{
+          text-align: center;
+          font-family: 'Quicksand', sans-serif;
+          color: #FFC500;
+          font-size: 20px;
+          width: 80%;
+          margin: 40% auto -100% auto;
+        }
+        .Why-Text{
+          padding-bottom: 50%;
+          position:relative;
+        }
+      }
+    }
+  }
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px){
+
+  .Home-Hero{
+    .container-fluid{
+      .row{
+        .Home-Hero-Title{
+          h1{
+          }
+        }
+        .Home-Hero-Text{
+          p{
+            width: 80%;
+            margin-right: 10%;
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+  .Featured-Artists{
+    background-color: black;
+    .container-fluid{
+      .row{
+        .Artist-Container{
+          padding-bottom: 25%;
+
+        }
+      }
+    }
+  }
+
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,42 @@
+/* Small devices (landscape phones, 576px and up) */
+.entry-title {
+  font-family: 'Exo', sans-serif; }
+  .entry-title a {
+    width: 80%;
+    margin: 0 10%;
+    color: #FFC500;
+    font-size: 5vw; }
+
+.entry-content * {
+  text-align: center;
+  margin: 10px auto; }
+
+.entry-content p {
+  width: 80%;
+  margin: 20px 10%;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-size: 18px; }
+
+#sidebar {
+  display: none; }
+
+.categories {
+  display: none; }
+
+.entry-summary {
+  width: 80%;
+  margin: 0 10%; }
+  .entry-summary p {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 18px; }
+
+hr {
+  border: 3px solid white;
+  border-radius: 5px;
+  margin: 25px 0; }
+
+/* medium devices (landscape phones, 576px and up) */
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */

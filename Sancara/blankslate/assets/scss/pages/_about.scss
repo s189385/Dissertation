@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html, body {
+  overflow-x: hidden;
+}
+
+.About-Header{
+  .Container-fluid{
+    .row{
+      .About-Heading{
+        width: 100%;
+      }
+      .About-Heading h1{
+        text-align: center;
+        font-family: 'Exo', sans-serif;
+        color: #FFC500;
+        padding: 25px 0;
+        font-size: 5em;
+        width: 90%;
+        margin: auto;
+      }
+    }
+  }
+}
+
+
+
+.Story-Content{
+  .container{
+    .row{
+      width: 100%;
+      margin: auto;
+      .Story-Paragraph p{
+        text-align: center;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+      }
+    }
+  }
+}
+
+.Founders-Heading{
+  h2{
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    color: #FFC500;
+    padding: 40px 0;
+    font-size: 4em;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.Founder-Profiles .container .row .Founder-Container{
+
+    padding: 25px 0;
+
+    .Founder-Image{
+      height: 250px;
+      width: 250px;
+      border-radius: 100%;
+      background-color: gold;
+      margin: 15px auto;
+      background-size: cover;
+      background-position: center;
+      overflow: hidden;
+      background-repeat: no-repeat;
+    }
+    .Founder-Description{
+      p{
+        text-align: center;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        width: 80%;
+        margin: auto;
+      }
+    }
+
+    .Founder-Social{
+      .container{
+        .row{
+          margin: 20px auto;
+          width: 40%;
+          display: flex;
+          justify-content: space-between;
+          i{
+            text-align: center;
+            color: #FFC500;
+            font-size: 35px;
+            padding: 20px 0;
+            margin: auto;
+          }
+        }
+    }
+
+    }
+
+    .Founder-Name{
+      h3{
+        text-align: center;
+        font-family: 'Exo', sans-serif;
+        color: #FFC500;
+        font-size: 35px;
+      }
+    }
+
+  }
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 0px) and (max-width:767px) {
+
+
+  .Story-Content .Container{
+    width: 90%;
+      .row{
+        .Story-Paragraph p{
+        }
+      }
+    }
+
+
+
+
+}
+
+/* medium devices (landscape phones, 576px and up) */
+@media (min-width: 768px) and (max-width:991px) {
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px){
+
+
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,102 @@
+
+.logo-container{
+  img{
+    width: 100%;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 0px) and (max-width:991px) {
+  .navbar{
+    background-color: black;
+    a{
+      color: white;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 14px;
+    }
+    .navbar-nav
+    {
+      .menu-main-container
+      {
+        float: right;
+      }
+      ul{
+        text-decoration: none;
+        list-style: none;
+        padding: 20px;
+        li{
+          height: 45px;
+          line-height: 45px;
+          border-bottom: 1px solid white;
+          width: 80%;
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .logo-container{
+    img{
+      width: 60%;
+    }
+
+  }
+  .navbar-nav
+  {
+    margin-left: auto;
+  }
+  .navbar{
+    background-color: black;
+    a{
+      color: white;
+      text-decoration: none;
+    }
+    .navbar-nav
+    {
+        ul{
+          text-decoration: none;
+          list-style: none;
+          display: flex;
+          li{
+            a{
+              margin: 10px;
+              font-family: 'Varela Round', sans-serif;
+              font-size: 14px;
+            }
+            a:hover{
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+
+    .navbar-brand
+    {
+      width: 43%;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+}

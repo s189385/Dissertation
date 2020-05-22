@@ -1,0 +1,54 @@
+.logo-container img {
+  width: 100%; }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 0px) and (max-width: 991px) {
+  .navbar {
+    background-color: black; }
+    .navbar a {
+      color: white;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 14px; }
+    .navbar .navbar-nav .menu-main-container {
+      float: right; }
+    .navbar .navbar-nav ul {
+      text-decoration: none;
+      list-style: none;
+      padding: 20px; }
+      .navbar .navbar-nav ul li {
+        height: 45px;
+        line-height: 45px;
+        border-bottom: 1px solid white;
+        width: 80%;
+        margin: auto; } }
+
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .logo-container img {
+    width: 60%; }
+  .navbar-nav {
+    margin-left: auto; }
+  .navbar {
+    background-color: black; }
+    .navbar a {
+      color: white;
+      text-decoration: none; }
+    .navbar .navbar-nav ul {
+      text-decoration: none;
+      list-style: none;
+      display: flex; }
+      .navbar .navbar-nav ul li a {
+        margin: 10px;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 14px; }
+      .navbar .navbar-nav ul li a:hover {
+        text-decoration: underline; }
+    .navbar .navbar-brand {
+      width: 43%; }
+      .navbar .navbar-brand img {
+        width: 100%;
+        height: auto; } }
+
+/* Extra large devices (large desktops, 1200px and up) */

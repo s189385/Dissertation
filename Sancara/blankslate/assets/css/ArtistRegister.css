@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  overflow-x: hidden; }
+
+input {
+  width: 100%;
+  padding: 10px 10px; }
+
+#profileDisplay {
+  background-color: red; }
+
+.form-div {
+  margin: auto; }
+
+.artist-button {
+  background-color: #FFC500;
+  color: black;
+  font-family: 'Exo', sans-serif;
+  outline: none;
+  border-style: none; }
+
+.Image-Container {
+  width: 100%;
+  background-color: red; }
+
+label {
+  color: white;
+  font-family: 'Exo', sans-serif;
+  font-family: 3vw;
+  margin: 10px 0; }
+
+h2 {
+  color: white;
+  font-family: 'Exo', sans-serif;
+  font-family: 4vw;
+  margin: 10px 0; }
+
+.alert {
+  z-index: 99;
+  width: 90%;
+  margin: 0 5%;
+  position: fixed;
+  top: 50%;
+  text-align: center; }
+
+/* Small devices (landscape phones, 576px and up) */
+/* medium devices (landscape phones, 576px and up) */
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */

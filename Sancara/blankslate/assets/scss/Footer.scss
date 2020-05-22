@@ -1,0 +1,139 @@
+.footer-container{
+  padding: 15px 0;
+  background-color: black;
+}
+
+i{
+  font-size: 25px;
+}
+
+/* Small devices (landscape phones, 576px and 991px) */
+@media (min-width: 0px) and (max-width:991px){
+  .footer-container{
+    .container{
+      .row{
+        .col-sm-12{
+           padding: 15px 0;
+           .container{
+             .row{
+               a{
+               i{
+                 text-align: center;
+                 color: #FFC500;
+               }
+             }
+            }
+           }
+           .menu-container{
+             h2{
+               text-align: center;
+               color: #FFC500;
+             }
+             ul{
+               list-style: none;
+               li{
+                 text-align: center;
+                 padding: 2.5px 0;
+                 a{
+                   color: white;
+                   font-family: 'Varela Round', sans-serif;
+                 }
+               }
+             }
+           }
+           .contact-container{
+             .contact-button{
+               text-align: center;
+               text-align: center;
+               button{
+                 height: 50px;
+                 width: 70%;
+                 background-color: #FFC500;
+                 text-align: center;
+                 margin: 0 auto;
+                 font-weight: bold;
+                 border-style: none;
+                 font-family: 'Varela Round', sans-serif;
+               }
+             }
+           }
+        }
+      }
+    }
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px){
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .menu-container h2{
+    text-align: left;
+    color: #FFC500;
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  .footer-container{
+    .container{
+      width: 100%;
+      .row{
+        .col-lg-4{
+           padding: 15px 0;
+           .container{
+             .row{
+               i{
+                 color: white;
+                 text-align: left;
+                 color: #FFC500;
+               }
+             }
+           }
+           .menu-container{
+             padding: 0 50px;
+             h2{
+
+             }
+             ul{
+               list-style: none;
+               li{
+                 text-align: left;
+                 a{
+                   color: white;
+                  font-family: 'Varela Round', sans-serif;
+                 }
+               }
+             }
+           }
+           .contact-container{
+             .contact-button{
+               text-align: center;
+               button{
+                 height: 75px;
+                 width: 70%;
+                 background-color: #FFC500;
+                 text-align: center;
+                 margin: 0 auto;
+                 font-weight: bold;
+                 border-style: none;
+                 font-family: 'Varela Round', sans-serif;
+               }
+             }
+           }
+        }
+      }
+    }
+  }
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
